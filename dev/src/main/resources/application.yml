@@ -1,10 +1,6 @@
 spring:
   application:
     name: CertiAPI
-  datasource:
-    url: jdbc:postgresql://${DB_HOST_CERTIAPI}:${DB_PORT_CERTIAPI}/${DB_NAME_CERTIAPI}
-    username: ${DB_USER_CERTIAPI}
-    password: ${DB_PASSWORD_CERTIAPI}
   jpa:
     hibernate:
       ddl-auto: update
